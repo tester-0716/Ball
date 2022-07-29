@@ -1,0 +1,36 @@
+.ball{
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  border-radius: 50%;
+  margin-top: 350px;
+  margin-left: 400px;
+  animation: bounce-effect 2s forwards;
+
+}
+
+@keyframes bounce-effect{
+  10%{
+    transform: translateY(-300px) translateX(150px);
+  }
+  30%{
+    transform: translateY(40px) translateX(300px);
+  }
+  50%{
+    transform: translateY(-300px) translateX(450px);
+  
+  } 
+  70%{
+    transform: translateY(40px) translateX(600px);
+  
+  } 
+  100%{
+    transform: translateY(-300px) translateX(1000px);
+  
+  } 
+  
+
+}
+
+
+
